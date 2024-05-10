@@ -154,12 +154,10 @@ def check():
         win(btn7["text"]);
     if flag ==10:
         messagebox.showinfo("Tie", "Match Tied!!!  Try again :)")
-        window.destroy()
 
 def win(player):
     ans = "Game complete " +player + " wins ";
     messagebox.showinfo("Congratulations", ans)
-    window.destroy()  # is used to close the program
 
 #create the buttonsfor the game
 btn1 = Button(window, text=" ",bg="white", fg="Black",width=3,height=1,font=('Helvetica','20'),command=clicked1)
